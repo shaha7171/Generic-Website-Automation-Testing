@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+ 
+<suite name="smokeTestSNPM">
+
+   <test name="smokeTestSNPM">  
+      <parameter name="loadHomePage" value="Y"/> 
+      <parameter name="accessSeeker" value="Y"/> 
+      <parameter name="isdatavalidation" value="N"/> 
+      
+      <!-- UI Validation -->
+       
+   
+      <classes>
+       <class name="com.snpm.test.TestHomePage" /> 
+       
+        
+     </classes> 
+   
+   </test>
+   
+</suite>
